@@ -10,7 +10,6 @@ def insertionSort(array) -> List[int]:
         min -=1
   return array
 # data = [9, 5, 1, 4, 3
-data = []
 for item in input_data.split(', '):
   if item.isnumeric():
     data.append(int(item))
